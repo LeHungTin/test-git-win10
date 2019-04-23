@@ -1,0 +1,27 @@
+.bolero {
+	display: flex;
+	flex-direction: column;
+}
+
+.bolero .cover {
+	width: 128px;
+	height: 128px;
+	background-image: url('https://loremflickr.com/128/128');
+	background-size: cover;
+}
+
+.bolero .overlay {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	font-size: 3em;
+	transition: all 0.5s;
+}
+
+.bolero .cover:hover .overlay{
+	opacity: 1;
+	color: #FFF;
+}

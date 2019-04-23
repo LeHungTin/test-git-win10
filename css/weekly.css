@@ -9,27 +9,27 @@ body {
 	border-bottom: 1px solid #DDD;
 }
 
-.number {
+.weekly-item .number {
 	padding: 1px 12px;
 	font-size: 20px;
 }
 
-.info {
+.weekly-item .info {
 	font-size: 14px;
 	flex-grow: 1;
 }
 
-.sing-title {
+.weekly-item .sing-title {
 	text-transform: capitalize;
 	margin-bottom: 8px;
 }
 
-.singer {
+.weekly-item .singer {
 	font-size: 13px;
 	color: #999;
 }
 
-.view-count {
+.weekly-item .view-count {
 	font-size: 14px;
 	color: #999;
 	padding: 1px 12px;
